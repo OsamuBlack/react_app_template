@@ -1,0 +1,30 @@
+.page-section {
+  padding: 2rem 0;
+
+  @mixin atMedium {
+    padding: 5rem 0;
+
+    &--padding-small {
+      padding: 3rem 0;
+    }
+  }
+
+  &--main {
+    background-color: $main;
+    color: $main-text;
+  }
+
+  &--sub {
+    background-color: $sub;
+    color: $sub-text;
+  }
+
+  &--dark {
+    background-color: $grey;
+    color: #fff;
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+}

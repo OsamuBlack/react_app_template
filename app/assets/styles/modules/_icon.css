@@ -1,0 +1,24 @@
+.icon {
+  font-size: inherit;
+
+  &--inline {
+    width: 1em;
+    height: 1em;
+  }
+
+  &--r-margin-small {
+    margin-right: 0.5em;
+  }
+
+  &--white {
+    fill: #fff;
+  }
+
+  &--main {
+    fill: $main;
+  }
+  
+  &--sub {
+    fill: $sub;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.css": "scss"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 9999,
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none",
+  "editor.tabSize": 2,
+  "terminal.integrated.defaultProfile.windows": "GitBash",
+  "terminal.integrated.altClickMovesCursor": false
+}
