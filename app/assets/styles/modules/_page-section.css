@@ -19,11 +19,6 @@
     color: $sub-text;
   }
 
-  &--dark {
-    background-color: $grey;
-    color: #fff;
-  }
-
   &--no-padding {
     padding: 0;
   }
